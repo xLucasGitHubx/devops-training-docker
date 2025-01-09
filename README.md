@@ -23,3 +23,6 @@ Le mount volume (`-v`) est flexible, car il permet de modifier les fichiers sur 
 docker run --name my-mysql --network my-network -e MYSQL_ROOT_PASSWORD=a -d mysql
 docker run --name my-phpmyadmin --network my-network -e PMA_HOST=my-mysql -p 80:80 -d phpmyadmin
 reste de la question fait sur phpmyadmin
+
+6.a
+La commande docker-compose permet de définir et de gérer plusieurs containers dans un seul fichier de configuration (docker-compose.yml). Contrairement à docker run, qui lance un seul container avec des options en ligne de commande, docker-compose simplifie la gestion des dépendances et automatise le déploiement d’applications multi-containers.
