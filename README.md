@@ -12,3 +12,6 @@ Madjinda Lucas
 
 3.f docker run --name my-apache -p 80:80 -d httpd
 docker cp ./html/index.html my-apache:/usr/local/apache2/htdocs/index.html
+
+4.b docker build -t my-apache-image .
+docker run --name my-apache-container-with-my-image -p 80:80 -d my-apache-image
