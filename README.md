@@ -30,3 +30,5 @@ La commande docker-compose permet de définir et de gérer plusieurs containers 
 6.b
 docker-compose up
 docker-compose down
+
+6.c docker-compose.yaml disponible et rédiger
